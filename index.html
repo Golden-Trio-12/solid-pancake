@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ping Pong</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+     
+        <link rel="stylesheet" href="style.css">
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>   
+
+    </head>
+    <body background = "https://media.istockphoto.com/id/1008358364/video/video-game-retro-background.jpg?s=256x256&k=20&c=QyX_GgaH3LFH3YoRy2aX8JmCM3YLYZeoC1Z0SmqXKxA=">
+        <center>
+            <div class="btn btn-info heading">
+                <h3>RETRO-STYLE PING PONG </h3>
+                <button class="btn btn-warning" data-toggle="modal" data-target="#myModal">Instructions</button>
+              </div>
+            <br>
+            <div id="myModal" class="modal fade">
+                <div class = "modal-dialog">
+                  <div class = "modal-content">
+                    <div class = "modal-header">
+                      <button class = "close" data-dismiss = "modal">&times;</button>
+                      <h4>Instructions</h4>
+                    </div>
+        
+                    <div class = "modal-body">
+                      <p>HOW TO PLAY: Turn on the computer webcam and stand a few feet away from the camera so both wrists are fully visible in the screen. You need motion visiblity for this to work. Using your right wrist, control the position of the ping pong paddle. You will use it to hit the ping pong ball across the screen to the other side. Continue rallying and see how far you get!</p>
+                    </div>
+        
+                  </div>
+                </div>
+              </div>
+            <br>
+            <br>
+            <div>
+            <button class = "play">PLAY</button>
+            <br>
+            <br>
+            <button class = "score">SCORE</button>
+            <br>
+            <br>
+            <button class = "restart">RESTART</button>
+            <br>
+            <br>
+
+            <h4>
+                Created By: Maanya Dixit
+              </h4>
+        </center>
+        <script src="main.js"></script>
+    </body>
+</html>
